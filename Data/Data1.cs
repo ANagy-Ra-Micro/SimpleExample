@@ -11,5 +11,8 @@ namespace SimpleExample.Data
         public int Value { get; set; }
 
         public DateTime? Birthday { get; set; }
+
+        public string Name { get; set; } = "";
+
     }
 }
