@@ -9,5 +9,7 @@ namespace SimpleExample.Data
     internal class Data1
     {
         public int Value { get; set; }
+
+        public DateTime? Birthday { get; set; }
     }
 }
